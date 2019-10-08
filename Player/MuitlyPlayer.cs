@@ -374,10 +374,10 @@ namespace Player
         /// <param name="password"></param>
         public void InitPlayerP(int videotype, string ip,int port,string username,string password)
         {
-            if (isPlatLogin && loginType == videotype)
-            {
-                return;
-            }
+            //if (isPlatLogin && loginType == videotype)
+            //{
+            //    return;
+            //}
 
             Reset();
 
